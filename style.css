@@ -1,0 +1,131 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+    top: 0;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+    float: left;
+    opacity: 0.9;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+a {
+    color: seashell;
+}
+
+li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+main {
+    margin-top: 70px;
+}
+
+#mission {
+    background-image: url("./images/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#title h2, h4 {
+    margin: 15px auto;
+}
+
+#featured {
+    width: 1000px;
+    margin: 70px auto;
+}
+
+#tea {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#tea img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+#tea h4 {
+    margin-top: 10px;
+}
+
+#locations {
+    background-image: url("./images/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+#address {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+#downtown, #east, #oakdale {
+    background-color: black;
+    margin: 0 20px;
+    width: 300px;
+    opacity: 1;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+footer article {
+    height: 200px;
+}
+
+#copyright {
+    text-align: left;
+    margin: 0 20px;
+}
